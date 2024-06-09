@@ -1,11 +1,14 @@
 # XAI_Whitebox
 Whitebox methods
 
-DeepLift is applied by using Shap.deepExplainer. See reference: https://shap-lrjball.readthedocs.io/en/latest/generated/shap.DeepExplainer.html
 
-For LRP and IG. See Innvestigate: https://github.com/albermax/innvestigate
+This work uses the following XAI methods:
+ - DeepLift is applied by using Shap.deepExplainer. See reference: https://shap-lrjball.readthedocs.io/en/latest/generated/shap.DeepExplainer.html
+
+- For LRP and IG. See Innvestigate: https://github.com/albermax/innvestigate
 
 
+I uploaded tf23.yml if you want to used the same environemt as we used. 
 Note: for importing environment see the Importing Environments section https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html 
 
 
