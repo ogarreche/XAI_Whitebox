@@ -44,6 +44,10 @@ For this program, you need copy and paste features scores from each IG, LRP, and
 
 4 - Efficiency: For efficiency run DNN_NSL_Example.ipynb, look for the cells that performs XAI methods, and take note of how long does it take to run it. Change the sample number to measure the efficiency when using less or more samples.
 
+5 - Completeness: 
+
+6 - Robustness: 
+
 
 
 
