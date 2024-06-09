@@ -17,7 +17,7 @@ Note: for importing environment see the Importing Environments section https://c
 
 2 - Descriptive Accuracy: Run descriptive_accuracy.ipynb
 
-  This program generates the graphs for Descriptive Accuracy. 
+  This program generates the graphs for Descriptive Accuracy. There are further instructions in the program.
   
   As an example: 
   
