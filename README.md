@@ -35,7 +35,7 @@ Note: for importing environment see the Importing Environments section https://c
 
 3 - Sparsity: Run Sparsity.ipynb
 
-This program generates the graphs for Sparsity. Inside the program there are further instructions in how to use it.
+This program generates the graphs for Sparsity. Inside the program there are further instructions on how to use it.
 
 For this program, you need copy and paste features scores from each IG, LRP, and Deeplift into the Sparsity.ipynb. You can get these values by running DNN_NSL_Example.ipynb and copying and paste the feature scores into the Sparsity.ipynb.
 
