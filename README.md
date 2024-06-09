@@ -13,5 +13,6 @@ Note: for importing environment see the Importing Environments section https://c
 
 1 - Run the DNN_NSL_Example.ipynb for instructions.
 
-    The program Loads the NSL-KDD dataset, trains a DNN model, and apply IG, LRP and DeepLift. It outputs the Accuracy of the model and the most important lists for each one the XAI methods with its relative score.
-2 - 
+The program Loads the NSL-KDD dataset, trains a DNN model, and apply IG, LRP and DeepLift. It outputs the Accuracy of the model and the most important lists for each one the XAI methods with its relative score.
+
+2 - Descriptive Accuracy: 
