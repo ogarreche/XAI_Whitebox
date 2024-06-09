@@ -25,7 +25,7 @@ Note: for importing environment see the Importing Environments section https://c
   
   x_axis_nsl = [0, 5, 10, 20, 40, 80] 
   
-  The y axis is the accuracy when such features are removed. You can get this values by running DNN_NSL_Example.ipynb and copying and paste the accuracies into the  descriptive_accuracy.ipynb.
+  The y axis is the accuracy when such features are removed. You can get these values by running DNN_NSL_Example.ipynb and copying and paste the accuracies into the  descriptive_accuracy.ipynb.
   
   y_axis_deeplift = [0.8429,	0.78984,	0.5903,	0.690888,	0.56132,	0.5355]
   
@@ -33,6 +33,10 @@ Note: for importing environment see the Importing Environments section https://c
   
   y_axis_lrp = [0.8429,	0.81582,	0.7745,	0.58476,	0.48346,	0.50312]
 
-3 - Sparsity: 
+3 - Sparsity: Run Sparsity.ipynb
 
-Sparsity.ipynb
+This program generates the graphs for Sparsity. 
+
+For this program, you need copy and paste features scores from each IG, LRP, and Deeplift into the Sparsity.ipynb. You can get these values by running DNN_NSL_Example.ipynb and copying and paste the accuracies into the descriptive_accuracy.ipynb.
+
+
