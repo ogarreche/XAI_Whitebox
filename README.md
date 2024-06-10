@@ -44,7 +44,7 @@ For this program, you need copy and paste features scores from each IG, LRP, and
 
 4 - Efficiency: For efficiency run DNN_NSL_Example.ipynb, look for the cells that performs XAI methods, and take note of how long does it take to run it. Change the sample number to measure the efficiency when using less or more samples.
 
-5 - Stability: 
+5 - Stability: This experiment is divided into Local and Global stability. Run the DNN_NSL_Example.ipynb for both experiments as many times as you want to perform the stability experiment (I ran it three times). For Local Stability, set the sample size to a single sample, and for global use more than one sample (We used 2500). 
 
 6 - Completeness: 
 
