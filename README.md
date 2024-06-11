@@ -27,11 +27,11 @@ This github divides the experiment by folders considering the metrics analyzed a
 
 ### Example: 
 
-1 - Run the DNN_NSL_Example.ipynb for instructions.
+1 - Run the DNN_NSL_Example.ipynb for instructions (inside the folder Base_programs).
 
   The program Loads the NSL-KDD dataset, trains a DNN model, and apply IG, LRP and DeepLift. It outputs the Accuracy of the model and the most important lists for each one the XAI methods with its relative score.
 
-2 - Descriptive Accuracy: Run descriptive_accuracy.ipynb
+2 - Descriptive Accuracy: Run descriptive_accuracy.ipynb (inside the folder Descriptive Accuracy).
 
   This program generates the graphs for Descriptive Accuracy. There are further instructions in the program.
   
@@ -49,21 +49,21 @@ This github divides the experiment by folders considering the metrics analyzed a
   
   - y_axis_lrp = [0.8429,	0.81582,	0.7745,	0.58476,	0.48346,	0.50312]
 
-3 - Sparsity: Run Sparsity.ipynb
+3 - Sparsity: Run Sparsity.ipynb (inside the folder Sparsity).
 
 This program generates the graphs for Sparsity. Inside the program there are further instructions on how to use it.
 
 For this program, you need copy and paste features scores from each IG, LRP, and Deeplift into the Sparsity.ipynb. You can get these values by running DNN_NSL_Example.ipynb and copying and paste the feature scores into the Sparsity.ipynb.
 
-4 - Efficiency: For efficiency run DNN_NSL_Example.ipynb, look for the cells that performs XAI methods, and take note of how long does it take to run it. Change the sample number to measure the efficiency when using less or more samples.
+4 - Efficiency: For efficiency run DNN_NSL_Example.ipynb (inside the folder Base_programs), look for the cells that performs XAI methods, and take note of how long does it take to run it. Change the sample number to measure the efficiency when using less or more samples.
 
-5 - Stability: This experiment is divided into Local and Global stability. Run the DNN_NSL_Example.ipynb for both experiments as many times as you want to perform the stability experiment (I ran it three times). For Local Stability, set the sample size to a single sample, and for global use more than one sample (We used 2500). 
+5 - Stability: This experiment is divided into Local and Global stability (inside the folder Stability). Run the DNN_NSL_Example.ipynb (inside the folder Base_programs) for both experiments as many times as you want to perform the stability experiment (I ran it three times). For Local Stability, set the sample size to a single sample, and for global use more than one sample (We used 2500). 
 
 For each time you run, you need to copy and paste the top k features you want to analyze. In the case of NSL-KDD we only took the top 20 feature names. You need to copy and past the extract list into the stability_local_NSL.ipynb and stability_global_NSL.ipynb, respectively. 
 
-6 - Completeness: Run DNN_DL_NSL_Compleness_Example.ipynb. This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is the Completeness graph.
+6 - Completeness: Run DNN_DL_NSL_Compleness_Example.ipynb (inside the folder Completeness). This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is the Completeness graph.
 
-7 - Robustness: Run RF_DL_NSL_bar_example.ipynb. This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is a single example of biased and adversarial explanation, and the ocurrence bar plots.
+7 - Robustness: Run RF_DL_NSL_bar_example.ipynb (inside the folder Robustness). This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is a single example of biased and adversarial explanation, and the ocurrence bar plots.
 
 
 
