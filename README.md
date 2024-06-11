@@ -23,7 +23,7 @@ If this work helped, please consider citing us :)
 
 ### Organization 
 
-This github divides the experiment by folders considering the metric analyzed.  
+This github divides the experiment by folders considering the metrics analyzed and Base model folder. The program in the Base folder is necessary to obtain descriptive accuracy, sparsity, efficiency, and stability. In each folder there is a example program to run to get familiarized with the work.  
 
 ### Example: 
 
