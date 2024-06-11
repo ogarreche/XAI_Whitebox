@@ -46,9 +46,9 @@ For this program, you need copy and paste features scores from each IG, LRP, and
 
 5 - Stability: This experiment is divided into Local and Global stability. Run the DNN_NSL_Example.ipynb for both experiments as many times as you want to perform the stability experiment (I ran it three times). For Local Stability, set the sample size to a single sample, and for global use more than one sample (We used 2500). 
 
-6 - Completeness: Run DNN_DL_NSL_Compleness_Example.ipynb  
+6 - Completeness: Run DNN_DL_NSL_Compleness_Example.ipynb. This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is the Completeness graph.
 
-7 - Robustness: Run RF_DL_NSL_bar_example.ipynb
+7 - Robustness: Run RF_DL_NSL_bar_example.ipynb. This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is a single example of biased and adversarial explanation, and the ocurrence bar plots.
 
 
 
