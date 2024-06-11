@@ -12,6 +12,11 @@ I uploaded tf23.yml if you want to used the same environemt as we used.
 Note: for importing environment see the Importing Environments section https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html 
 
 
+Robustness is based on https://github.com/dylan-slack/Fooling-LIME-SHAP/
+
+The metrics are based on: https://ieeexplore.ieee.org/document/9230374
+
+
 ### Example: 
 
 1 - Run the DNN_NSL_Example.ipynb for instructions.
