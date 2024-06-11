@@ -21,6 +21,9 @@ For results interpretation and analysis, please see our paper in (insert link wh
 
 If this work helped, please consider citing us :) 
 
+### Organization 
+
+This github divides the experiment by folders considering the metric analyzed.  
 
 ### Example: 
 
