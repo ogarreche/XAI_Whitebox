@@ -3,18 +3,20 @@ Whitebox methods
 
 
 This work uses the following XAI methods:
- - DeepLift is applied by using Shap.deepExplainer. See reference: https://shap-lrjball.readthedocs.io/en/latest/generated/shap.DeepExplainer.html
+
+- DeepLift is applied by using Shap.deepExplainer. See reference: https://shap-lrjball.readthedocs.io/en/latest/generated/shap.DeepExplainer.html
 
 - For LRP and IG. See Innvestigate: https://github.com/albermax/innvestigate
 
+Other notes:
 
-I uploaded tf23.yml if you want to used the same environemt as we used. 
+- I uploaded tf23.yml if you want to used the same environemt as we used. 
 Note: for importing environment see the Importing Environments section https://conda.io/projects/conda/en/latest/user-guide/cheatsheet.html 
 
 
-Robustness is based on https://github.com/dylan-slack/Fooling-LIME-SHAP/
+- Robustness is based on https://github.com/dylan-slack/Fooling-LIME-SHAP/
 
-The metrics are based on: https://ieeexplore.ieee.org/document/9230374
+- The metrics are based on: https://ieeexplore.ieee.org/document/9230374
 
 
 ### Example: 
