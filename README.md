@@ -1,6 +1,4 @@
-# XAI_Whitebox
-Whitebox methods
-
+# XAI Whitebox Methods
 
 This work uses the following XAI methods:
 
@@ -18,7 +16,7 @@ Note: for importing environment see the Importing Environments section https://c
 
 - The metrics are based on: https://ieeexplore.ieee.org/document/9230374
 
- 
+ ### Important
 For results interpretation and analysis, please see our paper in (insert link when ready). Thank you! 
 
 If this work helped, please consider citing us :) 
