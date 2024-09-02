@@ -78,4 +78,6 @@ For each time you run, you need to copy and paste the top k features you want to
 
 
 
+Note: The programs were tested on linux. If using windows, you might run in the error: "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x96 in position 22398: invalid start byte
+", please refer to: https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/issues/1 
 
