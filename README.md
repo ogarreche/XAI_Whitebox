@@ -95,3 +95,9 @@ And do the same that have the  �.
 It could be due to different versions of the python packages, sometimes when a package is updated the way that it handles number can vary slightly causing slightly different results. In my opinion, this is not necessarily a bad thing since the results are still consistent.
 
 4) Some of these programs take a long time to complete (over a few days).
+
+
+
+Please consider citing it, if it was useful to you :)
+
+https://www.researchsquare.com/article/rs-4790512/v1
