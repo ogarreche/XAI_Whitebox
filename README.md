@@ -77,7 +77,21 @@ For each time you run, you need to copy and paste the top k features you want to
 7 - Robustness: Run RF_DL_NSL_bar_example.ipynb (inside the folder Robustness). This program is a standalone one that do not depend on DNN_NSL_Example.ipynb. The outcome is a single example of biased and adversarial explanation, and the ocurrence bar plots.
 
 
+### Note
 
-Note: The programs were tested on linux. If using windows, you might run in the error: "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x96 in position 22398: invalid start byte
+1) The programs were tested on linux. If using windows, you might run in the error: "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x96 in position 22398: invalid start byte
 ", please refer to: https://github.com/ogarreche/Ensemble_Learning_2_Levels_IDS/issues/1 
 
+
+2) FOR THE CICIDS dataset: I suggest going to the Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv file and manually changing the following labels with the weird characters (you can do control+F and change all). The idea here is just to group the different labels into similar groups:
+Web Attack � Sql Injection to Web Attack
+Web Attack � Brute Force  to Web Attack
+Web Attack � XSS to Web Attack
+And do the same that have the  �.
+
+
+
+3) Why am seeing sligthly different results for robustness? 
+It could be due to different versions of the python packages, sometimes when a package is updated the way that it handles number can vary slightly causing slightly different results. In my opinion, this is not necessarily a bad thing since the results are still consistent.
+
+4) Some of these programs take a long time to complete (over a few days).
