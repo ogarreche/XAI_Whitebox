@@ -16,6 +16,8 @@ Note: for importing environment see the Importing Environments section https://c
 
 - The metrics are based on: https://ieeexplore.ieee.org/document/9230374
 
+- If you are having trouble training the model try: optimizer = tf.keras.optimizers.Adam(learning_rate=0.01) --> optimizer = tf.keras.optimizers.legacy.Adam(learning_rate=0.01)
+
  ### Important
 For results interpretation and analysis, please see our paper in (insert link when ready). Thank you! 
 
